@@ -18,7 +18,7 @@ defmodule Animaltrax.Kennel do
 
   """
   def list_animals do
-    raise "TODO"
+    Repo.all(Animal)
   end
 
   @doc """
